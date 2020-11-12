@@ -27,7 +27,7 @@ end)
  Citizen.CreateThread(function()
  	while true do
  		Citizen.Wait(0)
- 		if IsControlPressed(0, 178) then
+ 		if IsControlPressed(0, 178) then -----DELETE
 		ESX.ShowNotification("Poliiseja: ~r~" .. PoliisitPaikalla .. "~s~\nEnsihoitajia: ~r~" .. LanssitPaikalla .. "~s~\nTaxeja: ~r~" .. TaxitPaikalla .. "~s~\nMekaanikkoja: ~r~" .. MekaanikotPaikalla .. "~s~\n\nSinun ID: ~r~" .. id )
  		end
  	end
